@@ -1,4 +1,4 @@
-# Bot_Detecter
+# Bot_Detector
 
 
 ## Introduction
