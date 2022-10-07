@@ -44,12 +44,12 @@ What is differences betweetn CooRnet and this program?
 1. <B> TIME_THRESHOLD </B> : After investigating a 'repost_interval_ID.png' histogram, you need to set a time_threshold. Then, you need to add TIME_THRESHOLD to the step2 command line.<br/>
    For example, TIME_THRESHOLD is 11sec in the below histogram. <br/>
    In this case step 2 command line should be <B>'python3 ./run.py --step 2 --file_name INPUT_FILE_NAME --time_threshold 11'</B><br/>
-   ![alt text](https://github.com/ylee197/bot_Detection/blob/main/data/Time_interval.png?raw=true)
+   ![alt text](https://github.com/ylee197/bot_Detection2/blob/main/data/Time_interval.png?raw=true)
 2. <B> FAST_THRESHOLD and SLOW_THRESHOLD</B> uses coordinated reporting histogram. Coordinated reposting histogram will be a gradually decreased long tail histogram. However, if there are bot activities, the gradually decreased long tail histogram lose its regular pattern. Thus, if there is a irregular pattern in the histogram such as not decreased pattern and increased pattern that point will be a threshold. <br/>
    In the below graph, the histogram is decrased less after 6. Thus, the threshold of this graph is 6. This rule is aplied to both FAST_THRESHOLD and SLOW_THRESHOLD.<br />
-   ![alt text](https://github.com/ylee197/bot_Detection/blob/main/data/Coordinated.png?raw=true)
+   ![alt text](https://github.com/ylee197/bot_Detection2/blob/main/data/Coordinated.png?raw=true)
 3. <B> BIN_SIZE </B> : After investigating a histogram_fast.png(small/small_log) and a histogram_slow.png(small/small_log) histograms, yon can set a BIN_SIZE. If you find gaps in a histogram_fast_small.png or a histogram_fast_small_log.png, you need to reduce yout BIN_SIZE. At the first step3 running, program is running with default BIN_SIZE(default BIN_SIZE is 50). 
-   ![alt text](https://github.com/ylee197/bot_Detection/blob/main/data/Gap.png?raw=true)
+   ![alt text](https://github.com/ylee197/bot_Detection2/blob/main/data/Gap.png?raw=true)
 5. <B> FAST_THRESHOLD </B> : After investigating a histogram_fast.png(small/small_log) histogram, you need to set a fast_threshold. Then, you need to add FAST_THRESHOLD to the step4 command line.<br/> For example, if FAST_THRESHOLD is 10, step4 command line is <B>python3 ./run.py --step 4 --file_name INPUT_FILE_NAME --bin BIN_SIZE --fast_threshold 10</B>
 6. <B> SLOW_THRESHOLD </B> : After investigating a histogram_slow.png(small/small_log) histogram, you need to set a slow_threshold. Then, you need to add FAST_THRESHOLD and SLOW_THRESHOLD to the step5 command line.<br/> For example, if FAST_THRESHOLD is 10 and SLOW_THRESHOLD is 8, step5 command line is <B>python3 ./run.py --step 5 --file_name INPUT_FILE_NAME --fast_threshold 10 --slow_threshold 8 </B>
   
