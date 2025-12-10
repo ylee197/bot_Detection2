@@ -10,16 +10,16 @@
             <xs:sequence>
               <xs:element type="xs:string" name="name"/>
               <xs:element type="xs:string" name="phone" maxOccurs = "unbounded" minOccurs = "1"/>
-            </xs:element>
-            <xs:element type="xs:string" name="address" name="NearestAirport" use="required">
+              <xs:element type="xs:string" name="address">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element type="xs:short" name="number"/>
                   <xs:element type="xs:string" name="street"/>
                   <xs:element type="xs:string" name="city"/>
-			    <xs:element type="xs:string" name="state"/>
+			      <xs:element type="xs:string" name="state"/>
                   <xs:element type="xs:int" name="zip"/>
                 </xs:sequence>
+				<xs:attribute type="xs:string" name="NearestAirport" use="required" />
                </xs:complexType>
               </xs:element>
             </xs:sequence>
