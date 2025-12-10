@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<!-- This file represents and instances of 5 hotels -->
+<NationalParks>
+	<NationalPark rating = "4.3">
+		<name>Grand Canyon</name>
+        <phone>928-638-7496</phone>
+        <phone>888-297-2757</phone>
+        <phone>866-499-2574</phone>
+        <address NearestAirport = "FlagStaff">
+			<number>8</number>
+			<street>S Entrance Road</street>
+			<city>Grand Canyon</city>
+            <state>AZ</state>
+			<zip>86023</zip>
+		</address>
+	</Nationalpark>	
+	<Nationalpark rating="4.9">
+		<name>Glacier National Park</name>
+		<phone>406-888-7800</phone>
+		<address NearestAirport = "FCA">
+			<number>64</number>
+			<street>Grinnell Drive</street>
+			<city>West Glacier</city>
+            <state>MT</state>
+			<zip>59936</zip>
+		</address>
+	</Nationalpark>
+	<Nationalpark rating="4.7">
+		<name>Yellowstone National Park</name>
+		<phone>307-344-7381</phone>
+		<address NearestAirport = "WYS">
+			<number>2</number>
+			<street>Officers Row</street>
+			<city>Yellowstone National Park</city>
+            <state>WY</state>
+			<zip>82190</zip>
+		</address>
+	</Nationalpark>
+	<Nationalpark rating="4.5">
+		<name>Yosemite National Park</name>
+		<phone>209-372-0200</phone>
+		<address NearestAirport = "FAT">
+			<number>9035</number>
+			<street>village Dr</street>
+			<city>Yosemite NP</city>
+            <state>CA</state>
+			<zip>95389</zip>
+		</address>
+	</Nationalpark>
+	<Nationalpark rating="4.3">
+		<name>Grand Teton National Park</name>
+		<phone>307-739-3399</phone>
+		<address NearestAirport = "JAC">
+			<number>403</number>
+			<street>South Jenny Lake Dr.</street>
+			<city>Moose</city>
+            <state>WY</state>
+			<zip>83012</zip>
+		</address>
+	</Nationalpark>
+    <Nationalpark rating="4.1">
+		<name>Zion National Park</name>
+		<phone>435-772-3256</phone>
+		<address NearestAirport = "SGU">
+			<number>1</number>
+			<street>Zion Park Blvd</street>
+			<city>Springdale</city>
+            <state>UT</state>
+			<zip>84767</zip>
+		</address>
+	</Nationalpark>
+</Nationalparks>
+		
