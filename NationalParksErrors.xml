@@ -14,8 +14,8 @@
             <state>AZ</state>
 			<zip>86023</zip>
 		</address>
-	</Nationalpark>	
-	<Nationalpark rating="4.9">
+	</NationalPark>	
+	<NationalPark rating="4.9">
 		<name>Glacier National Park</name>
 		<phone>406-888-7800</phone>
 		<address NearestAirport = "FCA">
@@ -25,8 +25,8 @@
             <state>MT</state>
 			<zip>59936</zip>
 		</address>
-	</Nationalpark>
-	<Nationalpark rating="4.7">
+	</NationalPark>
+	<NationalPark rating="4.7">
 		<name>Yellowstone National Park</name>
 		<phone>307-344-7381</phone>
 		<address NearestAirport = "WYS">
@@ -36,8 +36,8 @@
             <state>WY</state>
 			<zip>82190</zip>
 		</address>
-	</Nationalpark>
-	<Nationalpark rating="4.5">
+	</NationalPark>
+	<NationalPark rating="4.5">
 		<name>Yosemite National Park</name>
 		<phone>209-372-0200</phone>
 		<address NearestAirport = "FAT">
@@ -46,8 +46,8 @@
 			<city>Yosemite NP</city>
             <state>CA</state>
 			<zip>95389</zip>
-	</Nationalpark>
-	<Nationalpark rating="4.3">
+	</NationalPark>
+	<NationalPark rating="4.3">
 		<name>Grand Teton National Park</name>
 		<address>
 			<number>403</number>
@@ -56,8 +56,8 @@
             <state>WY</state>
 			<zip>83012</zip>
 		</address>
-	</Nationalpark>
-    <Nationalpark rating="4.1">
+	</NationalPark>
+    <NationalPark rating="4.1">
 		<name>Zion National Park</name>
 		<phone>435-772-3256</phone>
 		<address NearestAirport = "SGU">
@@ -67,6 +67,6 @@
             <state>UT</state>
 			<zip>84767</zip>
 		</address>
-	</Nationalpark>
-</Nationalpark>
+	</NationalPark>
+</NationalPark>
 		
