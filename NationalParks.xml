@@ -25,7 +25,7 @@
 			<zip>59936</zip>
 		</address>
 	</NationalPark>
-	<Nationalpark rating="4.7">
+	<NationalPark rating="4.7">
 		<name>Yellowstone National Park</name>
 		<phone>307-344-7381</phone>
 		<address NearestAirport = "WYS">
